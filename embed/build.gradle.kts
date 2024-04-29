@@ -35,4 +35,13 @@ tasks {
             jvmTarget = "21"
         }
     }
+
+    task(name = "buildJar", type= Jar::class) {
+        manifest {
+            attributes["Main-Class"] = "hello.embed.EmbedTomcatSpringMainKt"
+        }
+
+        from(sourceSets.main.get().output)
+    }
+
 }
