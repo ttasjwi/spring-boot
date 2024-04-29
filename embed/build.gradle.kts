@@ -44,4 +44,14 @@ tasks {
         from(sourceSets.main.get().output)
     }
 
+    task(name = "buildFatJar", type= Jar::class) {
+        manifest {
+            attributes["Main-Class"] = "hello.embed.EmbedTomcatSpringMainKt"
+        }
+
+        from(sourceSets.main.get().output)
+        duplicatesStrategy = DuplicatesStrategy.WARN
+        from(configurations.runtimeClasspath.get().map { if (it.isDirectory) it else zipTree(it) })
+    }
+
 }
