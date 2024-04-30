@@ -18,27 +18,14 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    // web mvc
-    implementation("org.springframework:spring-webmvc")
+ext["tomcat.version"] = "10.1.18"
 
-    // 내장 톰캣
-    implementation("org.apache.tomcat.embed:tomcat-embed-core")
+dependencies {
+    // starter-web
+    implementation("org.springframework.boot:spring-boot-starter-web")
 
     // json 처리
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
-
-    // spring boot
-    implementation("org.springframework.boot:spring-boot")
-    implementation("org.springframework.boot:spring-boot-autoconfigure")
-
-    // log 관련
-    implementation("ch.qos.logback:logback-classic")
-    implementation("org.apache.logging.log4j:log4j-to-slf4j")
-    implementation("org.slf4j:jul-to-slf4j")
-
-    // yaml 관련
-    implementation("org.yaml:snakeyaml")
 
     // kotlin reflect
     implementation("org.jetbrains.kotlin:kotlin-reflect")
