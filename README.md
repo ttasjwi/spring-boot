@@ -43,3 +43,9 @@
 - <a href="/note/04장 - 스프링 부트 스타터와 라이브러리 관리/4.5 정리.md" target="_blank">4.5 정리</a>
 
 ---
+
+## 05장: 자동 구성(Auto Configuration)
+
+- <a href="/note/05장 - 자동 구성(Auto Configuration)/5.1 프로젝트 설정.md" target="_blank">5.1 프로젝트 설정</a>
+
+---
