@@ -2,7 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     id("org.springframework.boot") version "3.2.5"
-//    id("io.spring.dependency-management") version "1.1.4"
+    id("io.spring.dependency-management") version "1.1.4"
     id("org.jetbrains.kotlin.jvm") version "1.9.23"
     id("org.jetbrains.kotlin.plugin.spring") version "1.9.23"
 }
@@ -20,28 +20,28 @@ repositories {
 
 dependencies {
     // web mvc
-    implementation("org.springframework:spring-webmvc:6.1.6")
+    implementation("org.springframework:spring-webmvc")
 
     // 내장 톰캣
-    implementation("org.apache.tomcat.embed:tomcat-embed-core:10.1.20")
+    implementation("org.apache.tomcat.embed:tomcat-embed-core")
 
     // json 처리
-    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.15.4")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 
     // spring boot
-    implementation("org.springframework.boot:spring-boot:3.2.5")
-    implementation("org.springframework.boot:spring-boot-autoconfigure:3.2.5")
+    implementation("org.springframework.boot:spring-boot")
+    implementation("org.springframework.boot:spring-boot-autoconfigure")
 
     // log 관련
-    implementation("ch.qos.logback:logback-classic:1.4.14")
-    implementation("org.apache.logging.log4j:log4j-to-slf4j:2.21.1")
-    implementation("org.slf4j:jul-to-slf4j:2.0.13")
+    implementation("ch.qos.logback:logback-classic")
+    implementation("org.apache.logging.log4j:log4j-to-slf4j")
+    implementation("org.slf4j:jul-to-slf4j")
 
     // yaml 관련
-    implementation("org.yaml:snakeyaml:2.2")
+    implementation("org.yaml:snakeyaml")
 
     // kotlin reflect
-    implementation("org.jetbrains.kotlin:kotlin-reflect:1.9.23")
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
 }
 
 tasks.withType<KotlinCompile> {
