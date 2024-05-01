@@ -52,5 +52,6 @@
 - <a href="/note/05장 - 자동 구성(Auto Configuration)/5.4 스프링 부트의 자동 구성.md" target="_blank">5.4 스프링 부트의 자동 구성</a>
 - <a href="/note/05장 - 자동 구성(Auto Configuration)/5.5 자동 구성 직접 만들기 - 기반 예제.md" target="_blank">5.5 자동 구성 직접 만들기 - 기반 예제</a>
 - <a href="/note/05장 - 자동 구성(Auto Configuration)/5.6 @Conditional.md" target="_blank">5.6 @Conditional</a>
+- <a href="/note/05장 - 자동 구성(Auto Configuration)/5.7 @Conditional - 다양한 기능.md" target="_blank">5.7 @Conditional - 다양한 기능</a>
 
 ---
