@@ -48,5 +48,6 @@
 
 - <a href="/note/05장 - 자동 구성(Auto Configuration)/5.1 프로젝트 설정.md" target="_blank">5.1 프로젝트 설정</a>
 - <a href="/note/05장 - 자동 구성(Auto Configuration)/5.2 예제 만들기.md" target="_blank">5.2 예제 만들기</a>
+- <a href="/note/05장 - 자동 구성(Auto Configuration)/5.3 자동 구성 확인.md" target="_blank">5.3 자동 구성 확인</a>
 
 ---
