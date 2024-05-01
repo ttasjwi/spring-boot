@@ -1,7 +1,7 @@
 package hello.config
 
 import com.zaxxer.hikari.HikariDataSource
-import hello.support.logging.getLogger
+import support.logging.getLogger
 import org.springframework.context.annotation.Bean
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate
 import org.springframework.jdbc.support.JdbcTransactionManager

@@ -50,5 +50,6 @@
 - <a href="/note/05장 - 자동 구성(Auto Configuration)/5.2 예제 만들기.md" target="_blank">5.2 예제 만들기</a>
 - <a href="/note/05장 - 자동 구성(Auto Configuration)/5.3 자동 구성 확인.md" target="_blank">5.3 자동 구성 확인</a>
 - <a href="/note/05장 - 자동 구성(Auto Configuration)/5.4 스프링 부트의 자동 구성.md" target="_blank">5.4 스프링 부트의 자동 구성</a>
+- <a href="/note/05장 - 자동 구성(Auto Configuration)/5.5 자동 구성 직접 만들기 - 기반 예제.md" target="_blank">5.5 자동 구성 직접 만들기 - 기반 예제</a>
 
 ---

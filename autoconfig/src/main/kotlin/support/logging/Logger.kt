@@ -1,4 +1,4 @@
-package hello.support.logging
+package support.logging
 
 interface Logger {
 

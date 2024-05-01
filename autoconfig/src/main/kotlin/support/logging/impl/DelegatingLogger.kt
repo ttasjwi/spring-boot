@@ -1,6 +1,6 @@
-package hello.support.logging.impl
+package support.logging.impl
 
-import hello.support.logging.Logger
+import support.logging.Logger
 import io.github.oshai.kotlinlogging.KotlinLogging
 
 internal class DelegatingLogger (clazz: Class<*>) : Logger {
