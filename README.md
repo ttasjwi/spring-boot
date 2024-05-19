@@ -56,5 +56,6 @@
 - <a href="/note/05장 - 자동 구성(Auto Configuration)/5.8 순수 라이브러리 만들기.md" target="_blank">5.8 순수 라이브러리 만들기</a>
 - <a href="/note/05장 - 자동 구성(Auto Configuration)/5.9 순수 라이브러리 사용하기 1.md" target="_blank">5.9 순수 라이브러리 사용하기 1</a>
 - <a href="/note/05장 - 자동 구성(Auto Configuration)/5.10 순수 라이브러리 사용하기 2.md" target="_blank">5.10 순수 라이브러리 사용하기 2</a>
+- <a href="/note/05장 - 자동 구성(Auto Configuration)/5.11 자동 구성 라이브러리 만들기.md" target="_blank">5.11 자동 구성 라이브러리 만들기</a>
 
 ---
