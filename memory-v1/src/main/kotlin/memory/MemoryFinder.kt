@@ -1,11 +1,11 @@
 package memory
 
-import io.github.oshai.kotlinlogging.KotlinLogging
 import jakarta.annotation.PostConstruct
+import org.slf4j.LoggerFactory
 
 class MemoryFinder {
 
-    private val logger = KotlinLogging.logger(javaClass.name)
+    private val logger = LoggerFactory.getLogger(javaClass)
 
     fun get(): Memory {
         val max = Runtime.getRuntime().maxMemory()
@@ -18,6 +18,6 @@ class MemoryFinder {
 
     @PostConstruct
     fun init() {
-        logger.info { "init memoryFinder" }
+        logger.info ("init memoryFinder")
     }
 }

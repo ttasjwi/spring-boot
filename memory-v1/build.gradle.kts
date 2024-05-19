@@ -20,9 +20,6 @@ dependencies {
     // kotlin reflect
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.9.23")
 
-    // kotlin logging
-    implementation("io.github.oshai:kotlin-logging:6.0.3")
-
     // test
     testImplementation("org.springframework.boot:spring-boot-starter-test:3.2.5")
 }
