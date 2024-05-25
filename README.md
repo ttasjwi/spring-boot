@@ -62,5 +62,6 @@
 - <a href="/note/05장 - 자동 구성(Auto Configuration)/5.14 자동 구성 이해 1 - 스프링 부트의 동작(@EnableAutoConfiguration).md" target="_blank">5.14 자동 구성 이해 1 - 스프링 부트의 동작(@EnableAutoConfiguration)</a>
 - <a href="/note/05장 - 자동 구성(Auto Configuration)/5.15 자동 구성 이해 2 - @Import, ImportSelector.md" target="_blank">5.15 자동 구성 이해 2 - @Import, ImportSelector</a>
 - <a href="/note/05장 - 자동 구성(Auto Configuration)/5.16 자동 구성 사용 시 참고사항.md" target="_blank">5.16 자동 구성 사용 시 참고사항</a>
+- <a href="/note/05장 - 자동 구성(Auto Configuration)/5.17 정리.md" target="_blank">5.17 정리</a>
 
 ---
