@@ -65,3 +65,7 @@
 - <a href="/note/05장 - 자동 구성(Auto Configuration)/5.17 정리.md" target="_blank">5.17 정리</a>
 
 ---
+
+## 06장: 외부설정과 프로필 1
+
+- <a href="/note/06장 - 외부설정과 프로필 1/6.1 프로젝트 설정.md" target="_blank">6.1 프로젝트 설정</a>
